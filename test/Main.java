@@ -11,7 +11,7 @@ public class Main {
 
 
         Manager manager = new Manager("Bob", .25);
-        HourlyEmployee hourlyEmployee = new HourlyEmployee("Mekhi", .10);
+        HourlyEmployee hourlyEmployee = new HourlyEmployee("Mekhi");
         Customer customer = new Customer("Hanna", 'S');
 
         Clothing shirt = new Clothing("blue Shirt", 25, 'M');
@@ -38,7 +38,7 @@ public class Main {
         ShopApp.SortAndPrintClothingByPrice(clothing);
 
 
-        System.out.println(ShopApp.calcTotal(employeeCart));
+        //System.out.println(ShopApp.calcTotal(employeeCart));
 
 
 

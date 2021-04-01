@@ -7,5 +7,7 @@ public class Customer extends Person {
         super(name, size);
 
 
+
+
     }
 }

@@ -42,12 +42,7 @@ public class Clothing {
         return "This is a : " + getDescription() + " it cost: " + getPrice() + " and the size is a : " + getSize();
     }
 
-    @Override
-    public String toString1() {
-        return "Clothing{" +
-                "price=" + price +
-                '}';
-    }
+
 
 }
 

@@ -8,10 +8,18 @@ public class Manager extends Employee implements IDiscountable{
 
     }
 
-    @Override
-    public void calcDiscount(double discount, double price) {
-        System.out.println();
+    public double getDiscount(double discount, double price) {
+        return (price * discount) / 100;
     }
 
+    @Override
+    public String toString() {
+        return "Manager's name is: ";
+    }
+
+    @Override
+    public void calcDiscount(double discount) {
+        System.out.println(getDiscount(.25, 100));
+    }
 
 }

@@ -8,11 +8,11 @@ public class ShopApp {
         return calcTotal(clothing);
     }
 
-    public static boolean isAFit(Customer customer, Clothing clothing) {
-        return boolean isAFit = true;
-        if (clothing == ) ;
-
-    }
+//    public static boolean isAFit(Customer customer, Clothing clothing) {
+//        return boolean isAFit = true;
+//        if (clothing == ) ;
+//
+//    }
 
 
     public static void SortAndPrintClothingByPrice(ArrayList<Clothing> clothing) {
@@ -23,9 +23,9 @@ public class ShopApp {
         System.out.println(employee.toString());
     }
 
-//    public static void printDiscAmtOff(, Clothing clothing){
-//
-//    }
+    public static void printDiscAmtOff(Clothing clothing){
+
+    }
 
 
 
